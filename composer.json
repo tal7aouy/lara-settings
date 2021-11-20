@@ -1,0 +1,28 @@
+{
+    "name": "tal7aouy/settings",
+    "description": "create your own settings for app",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tal7aouy\\Settings\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tal7aouy",
+            "email": "talhaouycoding@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tal7aouy\\Settings\\SettingServiceProvider"
+            ]
+        }
+    }
+}

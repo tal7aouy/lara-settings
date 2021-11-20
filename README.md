@@ -9,7 +9,7 @@ for example you have an e-commerce app, you would like to have some settings suc
 ## Installation
 
 ```bash
-    composer require Tal7aouy/Settings
+    composer require tal7aouy/settings
 ```
 
 -   we will add a database seed for our settings table. Run below command in the terminal.

@@ -33,7 +33,7 @@ php artisan migrate
 // then
 php artisan db:seed
 ```
-# use settings
+### use settings
 
 ```php
         // site name

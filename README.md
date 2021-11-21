@@ -33,6 +33,15 @@ php artisan migrate
 // then
 php artisan db:seed
 ```
+# use settings
+
+```php
+        // site name
+     {{Config::get('settings.site_name')}}
+     //or 
+     {{Config('settings.site_name')}}
+     
+```
 
 ## License
 
